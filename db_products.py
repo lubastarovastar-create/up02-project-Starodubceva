@@ -68,7 +68,7 @@ if __name__ == "__main__":
     print("1. Все товары")
     print_catalog(get_all_products())
 
-    print("\n2. Категории:")
+    print("\n2. Категории:") 
     for cat in get_categories():
         print(f"   - {cat}")
 
